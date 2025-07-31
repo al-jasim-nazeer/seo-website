@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--to make website resposive ,adjusting layout based on device width--->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--2. set the description-->
+    <meta name="description" content="Discover 10 delicious chicken baking recipes for 2018">
+    <!--tell search engines to index yhe page and follow the link-->
+    <meta name="robots" content="index,follow">
+    <!--prevent duplicate content or url issues by deffining the url-->
+    <link rel="canonical" href="https://example.com/recipes/chicken-bake">
+    <!--enhance appearence when shared on social media-->
+    <meta property="og:title" content="10 ways to bake chicken in 2018">
+    <meta property="og:description" content="Learn Unique way to bake chicken">
+    <!--location --optional-->
+    <meta name="geo.region" content="IN-KL">
+    <meta name="geo.placename" content="Trivandrum">
+    <!--styles link-->
+    <link rel="stylesheet" href="style.css"><!--External CSS file for styling-->>    
+    <title>10 Ways to Bake Chicken in2018</title>
+
+
+</head>
+<body>
+    <header>
+        <h1>Top 10 chicken baking recipes</h1>
+    </header>
+    <section>
+        <h2>1.Herb rosted chicken</h2>
+        <img src="imges/chicken.webp" alt="Herb Rosted chicken in oven tray">
+        <!--image with optimized webp format and descriptive alt for SEO-->
+        <p>This classic recipe uses rosemary,thyme and garlic for a fragment and flavor meal</p>
+        <a href="'recipes.html">check out our chicken recipes</a>
+        <!--Internal link with meanigful anchor text-->
+    </section>
+    <!--Responsive image demo-->
+    <picture>
+        <source srcset="images/chicken-mobile.jpg" media="(max-width:600px)">
+        <sorce srcset="images/chicken-desktop.jpg" media="(min-width:600px)">
+            <img src="omages/chicken-desktop.jpg" alt="Responsive image of chicken">
+    </picture>
+    <!--uses different images sizes for mobile and desktop,improving loading time-->
+    <!--Lazy loading video-->
+    <video controls preload="none" poster="images/video-thumbnil.jpg">
+        <source src="videos/chicken-recipes.ogg" type="video/mp4">
+        <source src="video/chicken-recipes.ogg" type="video/ogg">
+        your browser does not support the video tag
+    </video>
+    <!--footer with link-->
+    <footer>
+        <p>2015 chicken recipes. All right reserved</p>
+        <a href="privacy-policy.html">Privacy Policy</a>
+    </footer>    
+</body>
+</html>
